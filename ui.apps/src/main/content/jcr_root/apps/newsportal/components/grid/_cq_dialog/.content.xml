@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Grid Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <gridConfiguration
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                fieldLabel="Grid Configuration"
+                name="./gridConfig">
+                <items jcr:primaryType="nt:unstructured">
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        text="Two Containers"
+                        value="2"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        text="Three Containers"
+                        value="3"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        text="Four Containers"
+                        value="4"/>
+                </items>
+            </gridConfiguration>
+        </items>
+    </content>
+</jcr:root>

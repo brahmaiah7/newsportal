@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-13T12:05:46.735+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/newsportal-project-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Task-1"
+        sling:resourceType="newsportal/components/article-page">
+        <root
+            jcr:lastModified="{Date}2024-09-25T16:42:34.365+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2024-09-25T17:07:47.593+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-09-25T17:08:17.360+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <article_banner
+                    jcr:created="{Date}2024-09-26T11:20:11.940+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-26T15:57:52.014+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/article-banner"
+                    buttonLabel="Brahmaiah"
+                    buttonLink="/content/newsportal/us/en/templates/template-4"
+                    openInNewTab="true"
+                    subTitle="Article-banner sub-title"
+                    Title="Article-banner changed"/>
+                <feature_articles_93763025
+                    jcr:created="{Date}2024-09-26T13:20:03.922+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-26T15:14:15.757+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/feature-articles"
+                    buttonLabel="Button label is used"
+                    buttonLink="/content/newsportal/us/en/templates/Template-3"
+                    navLinks="[/content/newsportal/us/en/templates/template-1,/content/newsportal/us/en/templates/template-2]"
+                    openInNewTab="true"
+                    subTitle="Not yet completed"
+                    tags="[experience-fragments:variation/facebook,experience-fragments:variation/web,workflow:wcm/translatelanguagecopy]"
+                    text="&lt;p>The Rich Text Editor (RTE) in Adobe Experience Manager (AEM) is located in the Text Component of the Core Components. The RTE is a flexible tool that offers a range of options for editing text content. &lt;/p>&#xd;&#xa;&lt;p>The RTE can be configured in different modes, and the configuration details are located in different places depending on the mode:&lt;/p>&#xd;&#xa;&lt;ul>&lt;li>Inline mode: cq:editConfig/cq:inplaceEditing&lt;/li>&lt;li>Full-screen mode: cq:editConfig/cq:inplaceEditing&lt;/li>&lt;li>Dialog mode: cq:dialog&lt;/li>&lt;li>Full-screen dialog mode: cq:dialog&lt;/li>&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true"
+                    Title="Feature Article Title"
+                    title="Feature Artciles Task"/>
+                <feature_articles
+                    jcr:created="{Date}2024-09-26T14:41:37.687+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-26T14:41:37.687+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/feature-articles"/>
+                <signin
+                    jcr:created="{Date}2024-11-13T12:05:46.724+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-13T12:05:46.724+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/signin"/>
+            </container>
+            <container_1420905028
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <feature_articles
+                    jcr:created="{Date}2024-09-26T14:42:42.992+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-26T14:42:42.992+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/feature-articles"/>
+                <image_component
+                    jcr:created="{Date}2024-09-27T16:01:24.986+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-28T12:28:17.421+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/image-component"
+                    date="{Date}2024-09-30T00:00:00.000+05:30"
+                    imagecount="5"
+                    imageDesc="@Model annotation is used to register a java class as a sling model and adaptables is a mandatory attribute"
+                    imageTitle="OSGI Sling Model "
+                    imageTitleType="h1"
+                    imageUpload="/content/dam/newsportal/images/virat-18.jpg"/>
+            </container_1420905028>
+        </root>
+    </jcr:content>
+    <sling-model/>
+</jcr:root>

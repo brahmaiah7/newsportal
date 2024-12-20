@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-13T15:12:40.775+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/newsportal-project-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo-1"
+        sling:resourceType="newsportal/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <contentfragment
+                    jcr:created="{Date}2024-09-25T17:10:37.512+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-25T17:11:17.756+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/contentfragment"
+                    displayMode="multi"
+                    elementNames="[fullName,profilePic,writerInformation]"
+                    fragmentPath="/content/dam/newsportal/content-fragment/brahmaiah"
+                    paragraphScope="all"
+                    text="Brahmaiah Full name Guruprasad sadham Profile pic /content/dam/newsportal/images/rohit.jpg writer information Rohit Sharma was born on April 30, 1987, in Bansod, Nagpur, in the state of Maharashtra, India. He first joined a cricket camp in 1999, when coach Dinesh Lad, a friend of his uncle's, noticed his talent. Lad used to scout for talent in those days and was very impressed with the way Sharma bowled."
+                    variationName="guru"/>
+                <image_component
+                    jcr:created="{Date}2024-09-27T16:57:03.010+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-27T18:07:31.735+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/image-component"
+                    date="{Date}2024-09-24T00:00:00.000+05:30"
+                    imageDesc="Description of OSGI sling model"
+                    imageTitle="OSGI Sling Model "
+                    imageTitleType="h1"
+                    imageUpload="/content/dam/newsportal/images/virat-18.jpg"/>
+            </container>
+            <container_1420905028
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <signin
+                    jcr:created="{Date}2024-11-13T12:39:12.189+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-11-13T12:39:12.189+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/signin"/>
+            </container_1420905028>
+        </root>
+    </jcr:content>
+</jcr:root>

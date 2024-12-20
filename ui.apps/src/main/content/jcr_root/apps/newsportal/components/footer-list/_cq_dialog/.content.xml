@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Footer List Dialog is ready"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <footer-title
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                fieldLabel="footer Title"
+                name="./footerTitle"/>
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/textarea"
+                fieldLabel="Text"
+                name="./text"/>
+            <include-social-icons
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                name="./includeicons"
+                text="Include social media icons"
+                value="{Boolean}true"/>
+            <include-subscribe-form
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                name="./includeSubscribeForm"
+                text="Include subscribe form"
+                value="{Boolean}true"/>
+            <include-Links
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                name="./links"
+                text="Include Links"
+                value="{Boolean}true"/>
+        </items>
+    </content>
+</jcr:root>

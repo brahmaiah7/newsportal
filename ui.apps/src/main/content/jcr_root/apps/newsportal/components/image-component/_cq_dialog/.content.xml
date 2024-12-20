@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="First Dialog is ready"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <image-title
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                fieldLabel="Image Title"
+                name="./imageTitle"/>
+            <image-description
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/form/textarea"
+                fieldLabel="Image Description"
+                name="./imageDesc"/>
+            <image-upload
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                fieldLabel="Image upload"
+                name="./imageUpload"
+                rootPath="/content/dam/newsportal/images"/>
+            <image-status
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                name="./imageStatus"
+                text="Image status"
+                value="{Boolean}true"/>
+            <image-uploadcount
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                fieldLabel="Image Count"
+                name="./imagecount"/>
+            <image-upload-date
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
+                fieldLabel="upload Date"
+                name="./date"/>
+            <image-type
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                fieldLabel="Image title Type"
+                name="./imageTitleType">
+                <items jcr:primaryType="nt:unstructured">
+                    <h1
+                        jcr:primaryType="nt:unstructured"
+                        text="H1"
+                        value="h1"/>
+                    <h2
+                        jcr:primaryType="nt:unstructured"
+                        text="H2"
+                        value="h2"/>
+                    <h3
+                        jcr:primaryType="nt:unstructured"
+                        text="H3"
+                        value="h3"/>
+                </items>
+            </image-type>
+            <image-labels
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                fieldLabel="Image Labels">
+                <field
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    name="./imageLabels"/>
+            </image-labels>
+            <composite-image-labels
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                composite="{Boolean}true"
+                fieldLabel="composite Image Labels">
+                <field
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                    name="./compImageLabels">
+                    <items jcr:primaryType="nt:unstructured">
+                        <image-title
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/textfield"
+                            fieldLabel="composite Image Title"
+                            name="./compImageTitle"/>
+                        <image-upload
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                            fieldLabel="composite Image upload"
+                            name="./compositeimageUpload"
+                            rootPath="/content/newsportal/us/en"/>
+                        <image-labels
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            fieldLabel="Image Labels">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                name="./imageLabels"/>
+                        </image-labels>
+                    </items>
+                </field>
+            </composite-image-labels>
+        </items>
+    </content>
+</jcr:root>

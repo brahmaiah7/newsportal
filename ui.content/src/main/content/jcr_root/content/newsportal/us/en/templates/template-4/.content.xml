@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-09-25T16:43:30.571+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Template-4"
+        sling:resourceType="newsportal/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/container"
+                    layout="responsiveGrid">
+                    <image_component
+                        jcr:created="{Date}2024-09-24T09:54:41.771+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-09-24T09:56:06.914+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/image-component"
+                        imageTitle="Mahendra singh Dhoni"
+                        imageTitleType="h1"
+                        imageUpload="/content/dam/newsportal/images/msdhoni.jpg"/>
+                    <contentfragment
+                        jcr:created="{Date}2024-09-25T16:37:56.857+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-09-25T16:43:30.511+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/contentfragment"
+                        displayMode="multi"
+                        elementNames="[fullName,profilePic,dateOfBirth]"
+                        fragmentPath="/content/dam/newsportal/content-fragment/brahmaiah"
+                        paragraphScope="all"
+                        text="Brahmaiah Full name Guruprasad sadham Profile pic /content/dam/newsportal/images/rohit.jpg Date of Birth 2024-11-26 16:04"
+                        variationName="guru"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

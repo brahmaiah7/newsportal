@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Product Details"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <category
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                fieldLabel="Category"
+                name="./category">
+                <items jcr:primaryType="nt:unstructured">
+                    <kids
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                        text="Kids"
+                        value="kids"/>
+                    <womens
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                        text="Women"
+                        value="women"/>
+                    <mens
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                        text="Men"
+                        value="men"/>
+                </items>
+            </category>
+            <product-tags
+                cq:showOnCreate="true"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/coral/common/form/tagfield"
+                autocreateTag="true"
+                fieldLabel="Product Tags"
+                forceSelection="false"
+                listOrder="7"
+                metaType="tags"
+                multiple="true"
+                name="./tags"
+                renderReadOnly="false"
+                rootPath="/content/cq:tags"
+                showEmptyInReadOnly="true"
+                valueType="string/tags[]"/>
+        </items>
+    </content>
+</jcr:root>

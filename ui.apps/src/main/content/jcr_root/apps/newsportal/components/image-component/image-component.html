@@ -1,0 +1,10 @@
+<sly data-sly-use.imageDetails="com.bhasaka.newsportal.core.models.ImageDetailsModel"/>
+<div>${imageDetails.imageTitle}
+  <p>${imageDetails.imageDesc}</p>
+</div>
+<imageDetails.getTitleSize>${imageDetails.getTitle}</imageDetails.getTitleSize>
+<sly data-sly-test="${!imageDetails.oldImage}">
+  <p>${'yyyy-MM-dd' @format=imageDetails.date}</p>
+  <div><img width="200px" height="200px" class="image"  src="${imageDetails.imageUpload}"/></div>
+</sly>
+<sly data-sly-test="${imageDetails.oldImage}"><p>Please upload a recent image</p></sly>

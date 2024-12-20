@@ -1,0 +1,35 @@
+<sly data-sly-use.productCard="com.bhasaka.newsportal.core.models.ProductCardModel" />
+<div class="mkd-bnl-outer">
+   <div class="mkd-bnl-inner">
+      <sly data-sly-list.popular="${productCard.popularProducts}">
+         <div class="mkd-pt-three-item mkd-post-item mkd-active-post-page">
+            <div class="mkd-pt-three-item-inner">
+               <div class="mkd-pt-three-item-inner2">
+                  <div class="mkd-pt-three-image-holder">
+                     <div class="mkd-post-info-category">
+                        <a href="#" rel="category tag">${productCard.productCategory}</a>
+                     </div>
+                     <a itemprop="url" class="mkd-pt-three-link mkd-image-link" href="${popular.productLink}" target="_self">
+                        <img src="${popular.productImage}" alt="${popular.productTitle}" width="386" height="246">
+                     </a>
+                  </div>
+                  <div class="mkd-pt-three-content-holder">
+                     <div class="mkd-pt-three-content-holder-inner">
+                        <div class="mkd-pt-three-content-top-holder">
+                           <div class="mkd-pt-three-content-top-holder-cell">
+                              <h5 class="mkd-pt-three-title">
+                                 <a itemprop="url" class="mkd-pt-link" href="#" target="_self">${productCard.productTitle}</a>
+                              </h5>
+                              <div itemprop="dateCreated" class="mkd-post-info-date entry-date updated">
+                                 <a itemprop="url" href="#">${popular.productExpiry}</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </sly>
+   </div>
+</div>

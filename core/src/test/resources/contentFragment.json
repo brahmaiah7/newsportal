@@ -1,0 +1,9 @@
+{
+  "master": {
+      "productExpiry": "2024-12-31",
+      "productPrice": "299.99",
+      "productImage": "/content/dam/newsportal/images/product1.jpg",
+      "productColour": "Red",
+      "productTags": ["Smartphone", "Electronics", "Sale"]
+  }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-09-25T11:37:40.347+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/newsportal/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="newsportal/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <footer
+                jcr:created="{Date}2024-09-25T10:50:39.486+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-09-25T10:50:39.486+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/footer">
+                <footer-list-1
+                    jcr:lastModified="{Date}2024-09-25T10:52:10.718+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    footerTitle="Get In Touch"
+                    includeicons="true"
+                    text="&lt;p>Experience fragment is a small part of web page and it used to develop different fragments and re use in the editable templates&lt;/p>"/>
+                <footer-list-2
+                    jcr:lastModified="{Date}2024-09-25T10:52:50.754+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    footerTitle="Usefull links"
+                    navLinks="[/content/newsportal/us/en/templates/template-1,/content/newsportal/us/en/templates/template-2,/content/newsportal/us/en/templates/Template-3]"/>
+                <footer-list-3
+                    jcr:lastModified="{Date}2024-09-25T10:53:27.281+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    footerTitle="Quicke Links"
+                    navLinks="[/content/newsportal/us/en/templates/demo-1,/content/newsportal/us/en/templates/template-4]"/>
+                <footer-list-4
+                    jcr:lastModified="{Date}2024-09-25T10:54:11.124+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    footerTitle="Subscribe Form"
+                    includeSubscribeForm="true"
+                    text="Mahendra Singh Dhoni (/məˈheɪndrə ˈsɪŋ dhæˈnɪ/ ⓘ; born 7 July 1981) is an Indian professional cricketer who plays as a right-handed batter and a wicket-keeper. Widely regarded as one of the most prolific wicket-keeper batsmen and captains, he represented the Indian cricket team and was the captain of the side in limited overs formats from 2007 to 2017 and in test cricket from 2008 to 2014."/>
+                <footer-list-5
+                    jcr:lastModified="{Date}2024-09-25T11:19:52.768+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/footer-list"
+                    links="true"
+                    navLinks="[/content/newsportal/us/en/templates/template-1,/content/newsportal/us/en/templates/template-2,/content/newsportal/us/en/templates/Template-3,/content/newsportal/us/en/templates/template-4,/content/newsportal/us/en/templates/demo-1]"/>
+            </footer>
+        </root>
+    </jcr:content>
+</jcr:root>

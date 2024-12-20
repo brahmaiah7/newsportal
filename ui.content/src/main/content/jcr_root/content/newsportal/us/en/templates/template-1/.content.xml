@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-09-24T09:53:17.084+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/newsportal/settings/wcm/templates/article-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Template-1"
+        sling:resourceType="newsportal/components/article-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2024-09-23T12:42:35.809+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-09-23T12:50:39.530+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <image_component
+                    jcr:created="{Date}2024-09-23T12:54:38.190+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-09-23T13:04:20.282+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/image-component"
+                    imageDate="{Date}2024-09-07T00:00:00.000+05:30"
+                    imageDesc="Captain of Team India"
+                    imageLabels="[India,chennai super kings,Rising pune supergaints]"
+                    imageStatus="true"
+                    imageTitle="Ms Dhoni"
+                    imageTitleType="h2"
+                    imageUpload="/content/dam/newsportal/images/msd.jpg"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

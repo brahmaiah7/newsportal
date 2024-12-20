@@ -1,0 +1,12 @@
+<sly data-sly-include="article-banner.html" />
+<div>
+    ${properties.text @context='html'}
+</div>
+<div data-sly-list="${properties.navLinks}">
+    <sly data-sly-use.contentResource="${item}/jcr:content" />
+    <a href="${item @extension='html'}">${contentResource.jcr:title}</a>
+</div>
+<h2>Tags List</h2>
+<ul data-sly-list="${properties.tags}">
+    <li>${item}</li>
+</ul>

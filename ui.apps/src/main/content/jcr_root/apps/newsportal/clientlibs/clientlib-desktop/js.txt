@@ -1,0 +1,7 @@
+#base=js
+bootstrap.bundle.js
+easing.js
+jquery-3.4.1.js
+main.js
+slick.js
+script.js

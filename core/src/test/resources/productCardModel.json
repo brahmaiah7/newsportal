@@ -1,0 +1,53 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "jcr:primaryType": "nt:unstructured",
+    "productTitle": "Smartphone XYZ",
+    "productDescription": "A high-performance smartphone with excellent features.",
+    "productStatus": true,
+    "productCategory": "Electronics",
+    "loadProductFromCFPath": true,
+    "cfPaths": [
+      "/content/dam/newsportal/product"
+    ],
+    "productCardItemModelList": {
+      "jcr:primaryType": "nt:unstructured",
+      "product1": {
+        "jcr:primaryType": "nt:unstructured",
+        "productName": "Product 1",
+        "productPrice": 299.99,
+        "productExpiry": "2024-12-31",
+        "productImage": "/content/dam/newsportal/images/product1.jpg",
+        "productColour": "Red"
+      },
+      "product2": {
+        "jcr:primaryType": "nt:unstructured",
+        "productName": "Product 2",
+        "productPrice": 199.99,
+        "productExpiry": "2025-06-30",
+        "productImage": "/content/dam/newsportal/images/product2.jpg",
+        "productColour": "Blue"
+      }
+    },
+    "popularProducts": {
+      "jcr:primaryType": "nt:unstructured",
+      "popularProduct1": {
+        "jcr:primaryType": "nt:unstructured",
+        "productName": "Popular Product 1",
+        "productPrice": 399.99,
+        "productExpiry": "2024-11-30",
+        "productImage": "/content/dam/newsportal/images/popular1.jpg",
+        "productColour": "Green"
+      },
+      "popularProduct2": {
+        "jcr:primaryType": "nt:unstructured",
+        "productName": "Popular Product 2",
+        "productPrice": 499.99,
+        "productExpiry": "2025-05-15",
+        "productImage": "/content/dam/newsportal/images/popular2.jpg",
+        "productColour": "white"
+      }
+    }
+  }
+}
+

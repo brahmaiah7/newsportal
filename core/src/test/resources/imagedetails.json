@@ -1,0 +1,8 @@
+{
+  "image-details": {
+    "imageTitle":"Ms Dhoni",
+    "imageDesc":"Captain of India",
+    "sling:resourceType":"newsportal/components/image-component",
+    "oldImage": "true"
+  }
+}

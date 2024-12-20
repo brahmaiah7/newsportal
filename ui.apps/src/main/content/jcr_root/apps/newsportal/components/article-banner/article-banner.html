@@ -1,0 +1,5 @@
+<h1>${properties.Title}</h1>
+<h3>${properties.subTitle}</h3>
+<span>${properties.buttonLabel}</span><br>
+<sly data-sly-use.contentResource="${properties.buttonLink}/jcr:content"/>
+<a href="${properties.buttonLink @extension='html'}" target="${properties.openInNewTab == 'true'?'_blank':''}">${contentResource.jcr:title}</a>

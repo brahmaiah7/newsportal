@@ -1,0 +1,13 @@
+<sly data-sly-use.productCard="com.bhasaka.newsportal.core.models.ProductDetailsModel" />
+${productCard.category}
+<div class="page-content">
+    <div data-sly-test="${wcmmode.edit}">
+        <div data-sly-resource="${'title' @ resourceType='core/wcm/components/title/v3/title'}"></div>
+
+        <div data-sly-resource="${'image' @ resourceType='core/wcm/components/image/v3/image'}"></div>
+
+        <div data-sly-resource="${'text' @ resourceType='core/wcm/components/text/v2/text'}"></div>
+        
+        <div data-sly-resource="${'button' @ resourceType='core/wcm/components/button/v1/button'}"></div>
+    </div>
+</div>
